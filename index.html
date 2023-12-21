@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            <span>ROCK</span>
+            <span>PAPER</span>
+            <span>SCISSORS</span>
+        </div>
+        <div class="three">
+            <div class="four">
+                <span style="color: #656565;">COMPUTER</span>
+                <span style="color: #656565;">SCORE</span>
+                <span style="font-size: 45px;" id="computerScore">0</span>
+            </div>
+            <div class="four">
+                <span style="color: #656565;">YOUR</span>
+                <span style="color: #656565;">SCORE</span>
+                <span style="font-size: 45px;" id="userScore">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="five">
+        <div class="six">
+            <div class="icon user rock" onclick="playGame('rock')">
+                <img src="images/rock.png" alt="Rock Icon">
+            </div>
+            <div class="icon user paper" onclick="playGame('paper')">
+                <img src="images/scissors.png" alt="Scissors Icon">
+            </div>
+        </div>
+        <div class="seven">
+            <div class="icon user scissors" onclick="playGame('scissors')">
+                <img src="images/paper.png" alt="Paper Icon">
+            </div>
+        </div>
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+        <div class="eight">
+            <div class="icon computer rock">
+                <img src="images/rock.png" alt="Rock Icon">
+            </div>
+            <div class="icon computer paper">
+                <img src="images/scissors.png" alt="Scissors Icon">
+            </div>
+            <div class="icon computer scissors">
+                <img src="images/paper.png" alt="Paper Icon">
+            </div>
+        </div>
+    </div>
+    <button class="play-again-button" onclick="playAgain()">Play Again</button>
+
+    <!-- <div class="eight">
+        <button onclick="openDialog()">RULES</button>
+        <div id="dialogBox" class="dialog-box">
+            <span class="close-button" onclick="closeDialog()">&times;</span>
+            <p>This is a dialog box. Click the X to close.</p>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>

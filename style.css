@@ -1,0 +1,162 @@
+body{
+    background-color: #8CC461;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.one{
+    margin: 2vw;
+    padding: 1vw;
+    width: 70vw;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.three{
+    display: flex;
+    gap: 2vw;
+}
+
+.four{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 7rem;
+    align-items: center;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #3498db; /* Outer ring color */
+    border-radius: 50%;
+    background-color: white; /* Inner circle color */
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: none;
+}
+
+.user{
+    display: inline-flex;
+}
+
+.icon img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.rock {
+    border-color: #0074B6; /* Customize outer ring color for rock */
+}
+
+.paper {
+    border-color: #FFA943; /* Customize outer ring color for paper */
+}
+
+.scissors {
+    border-color: #BD00FF; /* Customize outer ring color for scissors */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+}
+
+.five{
+    position: relative;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.six{
+    width: 27vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.line{
+    position: absolute;
+    width: 1rem;
+    background-color: #000000A3;
+    z-index: -1000;
+}
+
+.line1{
+    top: 0;
+    height: 10rem;
+    transform: rotate(33deg) translateX(6.5vw);
+}
+
+.line2{
+    top: 0;
+    height: 10rem;
+    transform: rotate(-33deg) translateX(-6.5vw);
+}
+
+.line3{
+    top: 0;
+    height: 10rem;
+    transform: rotate(90deg) translateX(-2vw);
+}
+
+/* .eight{
+    align-self: flex-end;
+}
+
+.eight button{
+    align-self: flex-end;
+    color: white;
+    background-color: #8CC461;
+    font-size: large;
+    font-weight: medium;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 1vw;
+}
+
+.dialog-box {
+    transform: translateX(-3vw) translateY(-20vw);
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+}
+
+.close-button {
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+} 
+*/
+
+
